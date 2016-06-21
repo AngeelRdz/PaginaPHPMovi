@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*//////////////////////////////////////////INICIA VIP ///////////////*/
+
+
+
+.text_vip {
+	font-size: 1.3em;
+}
+.costo_vip {
+	font-family: Movi-regular;
+	font-size: 2em;
+	color: #0f587f;
+}
+.btns_vip {
+	font-size: 1.4em;
+	border-radius:0px;
+}
+/* ///////////////////////////////////////////TERMINA VIP /////////////////////////////////////////*/

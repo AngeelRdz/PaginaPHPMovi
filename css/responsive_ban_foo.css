@@ -1,0 +1,54 @@
+@media and (max-width: 1280px){
+        .fot_text1{
+          margin-top:1.1em;
+         }
+    
+        .telefonica_foot{
+         margin-right:20%;
+          }
+}
+
+
+
+
+@media all and (max-width: 1024px){
+    
+        .foot_hr_corto2{
+            max-width: 100%;
+         }
+
+        .sep_ft {
+           max-width:90%;
+        }
+    
+    #redes_foot{
+          margin-left:3%;
+         }
+}
+
+@media screen and (min-width: 160px) { 
+     .telefonica_foot{
+           max-width: 70%;
+    }
+    #redes_foot{
+          max-width: 80%;
+         }
+}
+
+/*CAROUSEL INFERIOR*/
+
+@media all and (max-width: 480px){
+        .viewport{
+          width:10vmin;
+         }                      
+}
+
+@media  all and (max-width: 1024px){
+        .viewport{
+          width:79vmin;
+              
+         }      
+}
+
+
+

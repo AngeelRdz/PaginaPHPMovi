@@ -1,0 +1,283 @@
+#iview {
+	display: block;
+    max-width: 1200px;
+	min-width: 200px;
+	background: transparent;
+	position: relative;
+	overflow: hidden;
+}
+
+#iview .iviewSlider {
+    display: block;
+	width:920px;
+	height: 400px;
+    overflow: hidden;
+}
+
+
+#iview div.iview-directionNav {
+	position: absolute;
+	top: 47%;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+}
+
+#iview div.iview-directionNav a {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	background-image: url(../img/bg_direction_nav.png);
+	text-indent: -9999px;
+	-webkit-transition: left 0.3s ease-in-out;
+	-webkit-transition-property: left,right;
+	-moz-transition: left 0.3s ease-in-out;
+	-moz-transition-property: left,right;
+	-o-transition: left 0.3s ease-in-out;
+	-o-transition-property: left,right;
+	-ms-transition: left 0.3s ease-in-out;
+	-ms-transition-property: left,right;
+	transition: left 0.3s ease-in-out;
+	transition-property: left,right;
+}
+
+#iview div.iview-directionNav a.iview-nextNav {
+	right: -27px;
+	background-position: 27px 0px;
+}
+
+#iview div.iview-directionNav a.iview-prevNav {
+	left: -27px;
+	background-position: 0px 0px
+}
+
+#iview.iview-hover div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+}
+
+#iview.iview-hover div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+}
+
+.iview-caption {
+    font-family: Movi-Regular;
+	color: #10628a;
+    margin-top: -30%;
+    margin-left: -5%;
+	width: 25%;
+    height:auto;
+	font-size: 30px;
+    text-align: justify;
+}
+    
+.caption1 {
+    font-family: Headline-Regular;
+	color: #10628a;
+    margin-top: -28%;
+    margin-left: -9%;
+	width: 35%;
+    height: auto;
+	font-size: 30pt;
+    text-align: left;
+}
+
+.caption2 {
+    font-family: Headline-Regular;
+	color: #fff;
+    margin-top: -29%;
+    margin-left: -5%;
+	width: 37%;
+    height: auto;
+	font-size: 30pt;
+    text-align: left;
+}
+
+.caption3 {
+    font-family: Headline-Regular;
+	color: #fff;
+    margin-top: -21%;
+    margin-left: -3%;
+	width: 43%;
+    height: auto;
+	font-size: 30pt;
+    text-align: left;
+}
+
+.caption4 {
+    font-family: Headline-Regular;
+	color: #fff;
+    margin-top: -21%;
+    margin-left: -3%;
+	width: 42%;
+    height: auto;
+	font-size: 30pt;
+    text-align: left;
+}
+
+.caption5 {
+    font-family: Headline-Regular;
+	color: #10628a;
+    margin-top: -10%;
+    margin-left: -9%;
+	width: 31%;
+    height: auto;
+	font-size: 26pt;
+    text-align: left;
+}
+
+.caption6 {
+    font-family: Headline-Regular;
+	color: #fff;
+    margin-top: -15%;
+    margin-left: -5%;
+	width: 36%;
+    height: auto;
+	font-size: 26pt;
+    text-align: left;
+}
+
+.caption7 {
+    font-family: Headline-Regular;
+	color: #fff;
+    margin-top: -8%;
+    margin-left: -3%;
+	width: 40%;
+    height: auto;
+	font-size: 26pt;
+    text-align: left;
+}
+
+.caption8 {
+    font-family: Headline-Regular;
+	color: #fff;
+    margin-top: -8%;
+    margin-left: -3%;
+	width: 43%;
+    height: auto;
+	font-size: 26pt;
+    text-align: left;
+}
+
+.iview-caption.caption1 {
+	text-shadow: none;
+    color: #10628a;
+}
+
+.iview-caption2.caption2 {
+	color: #fff;
+	text-shadow: none;
+}
+
+.iview-caption3.caption3 {
+	color: #fff;
+	text-shadow: none;
+}
+
+.iview-caption4.caption4 {
+	color: #fff;
+    text-shadow: none;
+}
+
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+
+#iview-preloader div {
+	background: #fff;
+}
+
+.da-link{
+    font-family: Headline-Regular;
+    font-size: 27px;
+	border-radius: 0px;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border: 3px solid #7AB800;
+	padding: 2px 20px 2px;
+	line-height: 30px;
+	width: 80px;
+	text-align: center;
+	background: #7AB800;
+    z-index: 2000;
+    margin-left: 25%;
+}
+
+.da-link:hover{
+	background: #7AB800;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+#iview-timer {
+    left: 25%;
+	border-radius: 10px;
+}
+
+#iview-timer div {
+	border-radius: 10px;
+  
+}*/
+
+
+/*@media(max-width:480px){
+.caption1 {
+    margin-top: -25%;
+    margin-left: -7%;
+	width: 34%;
+	font-size: 30pt;
+}
+    
+.caption5 {
+    margin-top: -11%;
+    margin-left: -7%;
+	width: 36%;
+	font-size: 26pt;
+}
+    
+.caption2 {
+    margin-top: -22%;
+    margin-left: -4%;
+	width: 41%;
+	font-size: 30pt;
+}
+    
+.caption6 {
+    margin-top: -7%;
+    margin-left: -4%;
+	width: 42%;
+	font-size: 26pt;
+}
+    
+.caption3 {
+    margin-top: -21%;
+    margin-left: -3%;
+	width: 42%;
+	font-size: 30pt;
+}
+    
+.caption7 {
+    margin-top: -8%;
+    margin-left: -3%;
+	width: 44%;
+	font-size: 26pt;
+}
+    
+.caption4 {
+    margin-top: -20%;
+    margin-left: -2%;
+	width: 42%;
+	font-size: 30pt;
+}
+    
+.caption8 {
+    margin-top: -6%;
+    margin-left: -2%;
+	width: 43%;
+	font-size: 26pt;
+}
+}*/

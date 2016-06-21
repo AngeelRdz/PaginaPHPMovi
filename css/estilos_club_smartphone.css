@@ -1,0 +1,699 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* SMARTPHONE */
+@media (max-width:767px) {
+#logoMovi_phone{
+    width:163px;
+	height:auto;
+    top: -12px;
+    }
+
+
+/*  ESTILOS CUERPO  */
+#cuerpo {
+	margin:10px 0px 80px 0px;
+	padding:0 3% 0 3%;
+}
+    
+/*   ESTILOS MENU  */
+#barraMenu {
+	margin-top: 140px;
+    z-index:1;
+}
+
+#barraMenu2 {
+    width: 100%;
+	height: 80px;
+	margin-top: -5px; /*165px*/
+}
+
+#menuNavegacion {
+	margin-top: -53px;
+    z-index: 9999 !important;
+}
+
+#menuGeneral {
+    /*position:relative;*/
+	right:0%;
+	width:100% !important;
+    z-index: 1000 !important;
+}
+
+
+#navbarCollapse {
+	margin-top:16px;
+    width: 100%;
+    height: 400px;
+}
+
+.divider-vertical-second-menu{
+  display: none;
+}
+    
+.menu {
+	margin-top:-1px !important;
+    background:#fff;
+    border: 1px solid rgba(0, 86, 148, 0.9);
+}
+
+.menu > ul {
+background:#10628a;
+width:100% !important;
+}
+
+.menu > li {
+/*display:block;*/
+float:none;
+/*border-bottom: 1px solid rgba(0, 86, 148, 0.9);*/ /*Lineas de separacion*/
+}
+
+.menu > ul > li ul {
+	display:block;
+}
+
+.menu li ul {
+	position:relative;
+
+}
+
+.menu li:hover > ul {
+display:inherit;
+width:auto !important;
+border-top:0px solid #41bbd0;
+}
+    
+.menu > li a {
+	padding:14px 10px;
+	margin-left:0px !important;
+    
+}
+
+.menu > li a:hover {
+	/*text-decoration:underline;*/
+	background:#41bbd0;
+	padding:14px 10px;
+    color: #fff;
+}
+
+
+.menu > li a:active {
+	background:#41bbd0;
+	padding:14px 10px;
+}
+
+/*AQUI SE CAMBIA EL TAMAÑO Y TIPO DE LETRA*/
+.menu li a {
+	font-size:14px;
+    color: #1889ab;
+}			
+			
+.menu > li > ul:hover {
+	background:#fff;
+}
+
+/*SE CAMBIA EL TIPO DE FUENTE DEL SUBMENU*/
+.menu > li > ul > li a {
+	font-size:14px;
+    color: #1889ab;
+        display: block;
+}
+
+.menu > li > ul > li a:hover {
+	color:#ffffff;
+	padding:13px 20px;
+	background:#41bbd0;
+}
+
+    
+nav ul li:hover .children {
+		display: none;
+}
+    
+#botonMobile{
+    left: 0%;
+    margin-top: 4.5%;
+}
+    
+#botonMobile2{
+    margin-top: 2%;    
+}
+    
+
+/*SPAN -- ICONOS DE LAS FLECHAS DEL MENU*/
+.icon-circle-down{
+    display: none;
+}
+    
+
+/*////////////// FOOTER /////////////////////////*/
+.fot_text1 {
+	left:3%;
+	top:0%;
+}
+    
+#pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-10%;
+}
+
+#redes_foot {
+	margin-left: 5%;
+	top:0%;
+}
+
+.soc_foot {
+	width:25%;
+	height:33px;
+}
+
+.telefonica_foot {
+	right:0%;
+	height:33px;
+	width:auto;
+	top:7px;
+}
+
+hr {
+	margin:30px -1%;
+}
+
+/* LISTAS Y BOTONES FOOTER */
+#foot_lst1 {
+	margin-left:-1%;
+	padding:0;
+	text-align:left;
+    margin-top: -2%;
+}
+
+#foot_lst1 li {
+	margin-left:5px;
+    text-align:left;
+}
+
+    
+#foot_lst12 {
+	margin-left:1%;
+	padding:0;
+	text-align:left;
+}
+
+#foot_lst12 li {
+	margin-left:5px;
+    text-align:left;
+}
+    
+
+.foot_divisor {
+	margin-right:5px;
+}
+
+
+.foot_hr {
+	margin-top:5px;
+}
+
+.foot_hr_corto {
+	margin:5px 20% 10px 1%;
+}
+
+.foot_hr_corto2 {
+	margin:5px 1% 10px 10%;
+	text-align:left;
+}
+
+.foot_alin {
+	margin-left:-1.5%;
+	text-align:left;
+}
+
+.foot_alin_mapa {
+	margin-left: 10%;
+	text-align:left;
+}
+
+.foot_alin3 {
+	margin:0px 1% 20px -1%;
+	text-align:left;
+}
+    
+.foot_alin3_correo {
+	margin:-10px 1% 20px -1%;
+	text-align:left;
+}
+
+.foot_alin4 {
+	margin:30px 1% 0px -1%;
+	text-align:left;
+}
+
+.foot_listas {
+	list-style:none;
+	padding:0;
+}
+
+.anu_sep_ft {
+	margin-top:10px;
+}
+
+.links_mod {
+	color:#00769f;
+	text-decoration::none;
+}
+
+.links_mod a {
+color:#00769f;
+text-decoration:none;
+}
+
+.reset_mobile_foot {
+	margin-top:-240px;
+}
+    
+    
+    
+}
+
+
+/*MEDIAS QUERIES*/
+
+@media (max-width: 700px) {
+ #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+   #navbarCollapse {
+	margin-top:15px;
+}
+    #botonMobile{
+    margin-top: 5%;    
+}
+    
+    #botonMobile2{
+    margin-top: 2%;    
+}
+}
+
+    
+@media (max-width: 680px) {
+ #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+}
+
+@media (max-width: 620px) {
+  #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+  #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+    #botonMobile{
+    margin-top: 6%;    
+}
+    
+    #botonMobile2{
+    margin-top: 2.5%;    
+}
+}
+
+@media(max-width:577px){
+    #foot_lst1 li {
+	list-style:none;
+	float:left;
+	margin-left:6px;
+    margin-right: 10px;
+}
+    
+    #foot_lst12 li {
+	list-style:none;
+	float:left;
+	margin-left:6px;
+    margin-right: 10px;
+}
+    
+    .foot_divisor {
+	margin-left:0px;
+    margin-right:0px;
+}
+    
+    #pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-15%;
+}
+}
+
+@media (max-width: 560px) {
+  #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+    #botonMobile{
+    margin-top: 6.3%;    
+}
+    
+    .btns_vip{
+        margin-left: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+  #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+    #botonMobile{
+    margin-top: 6.7%;    
+}
+     #navbarCollapse {
+	margin-top:17px;
+}
+}
+
+
+@media (max-width:480px){
+     #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+    #barraMenu2 {
+	height: 80px;
+	margin-top: 0px; /*165px*/
+}
+    
+    #botonMobile{
+    margin-top: 7.4%;   
+    left: 0%;
+}
+    
+      #botonMobile2{
+    margin-top: 3%;   
+    left: 6%;
+}   
+    
+    #pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-20%;
+        margin-bottom: -2%;
+}
+    
+     #foot_lst1 li {
+	list-style:none;
+	float:left;
+	margin-left:2px;
+    margin-right: 10px;
+}
+    
+    #foot_lst12 li {
+	list-style:none;
+	float:left;
+	margin-left:2px;
+    margin-right: 10px;
+}
+    
+.btns_vip{
+        margin-left: 75%;
+    }
+    
+#redes_foot {
+	margin-left: 10%;
+	top:0%;
+}
+
+.telefonica_foot {
+	right:10%;
+	height:33px;
+	width:auto;
+	top:7px;
+}
+}
+
+@media (max-width:450px){
+     #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+     #botonMobile{
+    margin-top: 7.6%;
+    left: 0%;
+}
+     #navbarCollapse {
+	margin-top:18px;
+}
+}
+
+@media (max-width:414px){
+     #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+    #botonMobile{
+    margin-top: 8.5%;    
+}
+    
+    .fot_text1{
+          margin-top:5%;
+         }
+         
+    .telefonica_foot{
+         width: 70%;
+            margin-right:0%;
+          }
+    
+    .foot_divisor {
+	margin-left:0px;
+    margin-right:0px;
+}
+    
+    .btns_vip{
+        margin-left: 70%;
+    }
+    
+    #pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-23%;
+     margin-bottom: -5%;
+}
+}
+
+
+@media (max-width:400px){
+     #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }    
+    
+    .fot_text1{
+          margin-top:5%;
+        left: -3%;
+         }
+}
+
+@media (max-width:360px){
+    #logoClub{
+            margin-top:-2%;
+           left: 0%;
+         }
+    
+    #logoClub5{
+            margin-top:-2%;
+           left: 0%;
+         }
+    
+    #botonMobile{
+    margin-top: 9.7%;    
+}
+}
+
+@media (max-width:350px){
+    #logoClub{
+            margin-top:-2%;
+           left: 0%;
+         }
+    
+    #logoClub5{
+            margin-top:-2%;
+           left: 0%;
+         }
+    
+    #logoMovi_phone{
+    width:163px;
+	height:auto;
+    }
+    
+    .fot_text1{
+          margin-top:6%;
+        left: -3%;
+         }
+    
+    #redes_foot {
+	margin-left: 10%;
+	top:0%;
+}
+    
+    .telefonica_foot{
+         width: 70%;
+            margin-right:0%;
+          }
+    
+   .soc_foot {
+	width:25%;
+	height:33px;
+       margin-left: 5%;
+}
+    
+    #pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-25%;
+    margin-bottom: -5%;
+}
+    
+     #navbarCollapse {
+	margin-top:19px;
+}
+   }
+
+@media (max-width:320px) {
+     #logoMovi_phone{
+    width:163px;
+	height:auto;
+         
+    }
+     #logoClub{
+            margin-top:-4%;
+           left: -5%;
+         }
+    
+    #logoClub5{
+            margin-top:-4%;
+           left: 0%;
+         }
+
+       #botonMobile{
+    margin-top: 11.2%;
+           left: 2%;
+}
+    
+      #botonMobile2{
+    margin-top: 11.2%;
+           left: 0%;
+}
+    
+    .fot_text1{
+          margin-top:8%;
+        left: -3%;
+        font-size: 9pt;
+         }
+    
+    .telefonica_foot{
+         width: 100%;
+            margin-right:0%;
+          }
+    
+   .soc_foot {
+	width:25%;
+	height:33px;
+       margin-left: 1%;
+}
+    
+    .btns_vip{
+        margin-top: 10%;
+        margin-left: 60%;
+    }
+    
+    #pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-30%;
+    margin-bottom: -8%;
+}
+}
+
+@media (max-width:300px) {
+    #logoClub{
+            margin-top:-2%;
+           left: 12%;
+         }
+    
+     #logoClub5{
+            margin-top:-2%;
+           left: 12%;
+         }
+    
+     #botonMobile{
+    margin-top: 12%;
+           left: 4%;
+}
+    
+}
+
+@media (max-width:285px) {
+     #logoMovi_phone{
+    width:163px;
+	height:auto;
+         top: -12px;
+    }
+    .fot_text1{
+          margin-top:10%;
+        left: -3%;
+        font-size: 8pt;
+         }
+    
+    .telefonica_foot{
+         width: 100%;
+         margin-right:0%;
+}
+    
+    #pleca1_foot {
+	height:45px;
+	background:#f0f2f5;
+	width:100%;
+    margin-top:-35%;
+    margin-bottom: -10%;
+}
+    
+   .soc_foot {
+	width:25%;
+	height:33px;
+       margin-left: 3%;
+}
+    #botonMobile{
+    margin-top: 13%;
+           left: 5%;
+}
+     #navbarCollapse {
+	margin-top:18px;
+}
+    
+    #botonMobile2{
+    margin-top: 5%;
+           margin-right: -1%;
+}
+}
+    
+    

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************ESTILOS PARA tablet ***********/
+@media (max-width:970px) {
+	
+	/*#myCarousel2 {
+	margin-top:0px;
+}   
+
+#myCarousel2 img {
+	margin-top:0px;
+}*/
+    
+    
+    	
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER 2 */
+	
+
+#home_descuento{
+
+	}
+#home_2x1{
+
+	}
+#home_regalo{
+
+	}
+#home_experiencia{
+
+	}
+	
+	
+}

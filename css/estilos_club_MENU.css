@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Menu*/
+.menu {
+	list-style:none;
+	padding-left:0px;
+	margin-left:0px;
+	text-align:left;
+	font-size:15pt;
+    /*z-index: 2000 !important;*/
+    margin-top:20px !important;
+}
+
+.menu > ul {
+	padding:0px;
+	margin:0px;
+}
+
+
+.menu > li { 
+	float:left;
+	padding:0px 0px;
+	margin:0 0;
+	/*border-right:1px solid #FFF;*/
+	margin-top:12px;
+}
+
+.divider-vertical-second-menu{
+   height: 12px;
+   width: 1px;
+   border: 1px solid #FFF;
+   margin-top: 47px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.menu > li a {
+	padding:27px 10px;
+	margin-left:0px !important;
+}
+
+.menu > li a:hover {
+	/*text-decoration:underline;*/
+	background:#1889ab;
+	padding:27px 10px;
+}
+
+
+.menu > li a:active {
+	background:#1889ab;
+	padding:27px 10px;
+    
+}
+/*Se modifica el submenu*/
+.menu li ul {
+	padding:0px;
+	margin:1px;
+	list-style:none;
+	position:absolute;
+	display:none;
+    width:44%;
+}
+
+/*AQUI SE CAMBIA EL TAMAÑO Y TIPO DE LETRA*/
+.menu li a {
+	display:block;
+	font-family:Headline-Regular;
+	color:#fff;
+	text-decoration:none;
+	font-size:17px;
+}
+
+
+.menu li:hover > ul{
+				display:block;
+				width:44%;
+				background:#fff;
+				border-top:0px solid #41bbd0;
+}
+			
+			
+.menu > li > ul:hover {
+	background:#fff;
+}
+
+/*SE CAMBIA EL TIPO DE FUENTE DEL SUBMENU*/
+.menu > li > ul > li a {
+	color:#10628a;
+	padding:13px 20px;
+	font-size:17px;
+    background:#fff;
+}
+
+.menu > li > ul > li a:hover {
+	color:#ffffff;
+	padding:13px 20px;
+	background:#41bbd0;
+}
+
+
+
+/*SPAN -- ICONOS DE LAS FLECHAS DEL MENU*/
+.icon-circle-down{
+    display: none;
+}
+
+
+nav ul li:hover .children {
+		display: block !important;
+}
+
+
+/*MEDIAS QUERIES*/
+@media (max-width:1199px){
+ #logoMovi_phone{
+    width:163px;
+	height:auto;
+     top:12px;
+    }
+
+/*AQUI SE CAMBIA EL TAMAÑO Y TIPO DE LETRA*/
+ .menu li a {
+	display:block;
+	font-family:Headline-Regular;
+	color:#fff;
+	text-decoration:none;
+	font-size:15px;
+}
+    
+/*SE CAMBIA EL TIPO DE FUENTE DEL SUBMENU*/
+.menu > li > ul > li a {
+	color:#10628a;
+	padding:13px 20px;
+	font-size:15px;
+    background:#fff;
+}
+    
+.menu > li a {
+	padding:29px 10px;
+	margin-left:0px !important;
+}
+
+.menu > li a:hover {
+	/*text-decoration:underline;*/
+	background:#1889ab;
+	padding:29px 10px;
+}
+
+
+.menu > li a:active {
+	background:#1889ab;
+	padding:29px 10px;
+    
+}
+    
+.menu li:hover > ul{
+				display:block;
+				width:35%;
+				background:#fff;
+				border-top:0px solid #41bbd0;
+}
+}
+
+
+
+@media (max-width:991px){
+#logoMovi_phone{
+    width:163px;
+	height:auto;
+    top: 12px;
+    }
+    
+    /*AQUI SE CAMBIA EL TAMAÑO Y TIPO DE LETRA*/
+.menu li a {
+	display:block;
+	font-family:Headline-Regular;
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+}
+    
+    /*SE CAMBIA EL TIPO DE FUENTE DEL SUBMENU*/
+.menu > li > ul > li a {
+	color:#10628a;
+	margin-top:0px;
+	padding:13px 20px;
+	font-size:13px;
+}
+ 
+    .menu > li a {
+	padding:30px 10px;
+}
+
+.menu > li a:hover {
+	padding:30px 10px;
+}
+
+.menu > li a:active {
+	padding:30px 10px;
+}
+    
+.divider-vertical-second-menu{
+    margin-right: 1px !important;
+    margin-left: 1px !important;
+}
+    
+}
+
+
+
+
+
+

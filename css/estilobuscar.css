@@ -1,0 +1,384 @@
+
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+    
+}
+	
+.flexsearch--form {
+    
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+}
+
+.flexsearch--input {
+  width: 100%;
+    margin-left:20%;
+}
+
+.glyphicon-search{
+    color: #10628a;
+    top: -24px;
+    left: 102%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+ 
+ /*Se puede mover todo completo*/
+.flexsearch {
+  padding: 0 3px 0 130px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 20px;
+  padding: 0 46px 0 10px;
+	border-color: #10628a;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 3px;
+  margin-top:80px;
+  color: #10628a;
+  font-family: Headline-Regular;
+	font-size: 10pt;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 43px; /* margin-top + border-width */
+  margin-right: 70px; /* border-width */
+	background: transparent;
+  color: #10628a;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15pt;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #10628a;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #10628a; 
+    font-size: 15pt;
+}
+
+.flexsearch--submit:hover {
+  color: #10628a;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #10628a;  
+}
+
+input:-moz-placeholder {
+  color: #10628a;
+}
+
+.azul{
+    width: 20%;
+    height: 50%;
+    margin-top: -8%;
+    margin-left: 5%;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media(max-width:1199px){
+    .flexsearch--wrapper {
+	width: 140%;
+        height: auto;
+        margin-top: 5%;
+        margin-left: -45%;
+}
+}
+
+@media(max-width:991px){
+    .flexsearch--wrapper {
+	width: 100%;
+        height: auto;
+        margin-top: -5%;
+        margin-left: 0%;
+}
+}
+
+@media(max-width:768px){
+    .flexsearch--wrapper {
+	width: 100%;
+        height: auto;
+        margin-top: -5%;
+        margin-left: -5%;
+}
+    
+     .glyphicon-search{
+    top: -24px;
+    left: 100%;
+}
+}
+
+@media(max-width:767px){
+    .flexsearch--wrapper {
+	    width: 40%;
+        height: auto;
+        margin-top: 0%;
+        margin-left: 55%;
+}
+}
+
+
+@media(max-width:600px){
+    .flexsearch--wrapper {
+	    width: 50%;
+        height: auto;
+        margin-top: 0%;
+        margin-left: 45%;
+}
+    
+    #logoClub{
+        left: 0%;
+        margin-top: 1%;
+    }
+}
+
+@media(max-width:560px){
+    .flexsearch--wrapper {
+	    width: 55%;
+        height: auto;
+        margin-top: 0%;
+        margin-left: 40%;
+}
+    
+    .glyphicon-search{
+    top: -24px;
+    left: 100%;
+}
+    
+}
+
+@media(max-width:480px){
+    .flexsearch--wrapper {
+	    width: 70%;
+        height: auto;
+        margin-left: -15%;
+        margin-top: 20%;
+    }
+    .glyphicon-search{
+    top: -24px;
+    left: 99%;
+}
+    
+    #logoClub{
+        left: 30%;
+        margin-top: 1%;
+    }
+        
+ #logoClub5{
+            margin-top:1%;
+             left: 30%;
+         } 
+}
+
+@media(max-width:450px){
+    .flexsearch--wrapper {
+	    width: 80%;
+        height: auto;
+        margin-left: -20%;
+        margin-top: 20%;
+    }
+    
+    #logoClub{
+        left: 30%;
+        margin-top: 1%;
+    }
+        
+ #logoClub5{
+            margin-top:1%;
+             left: 30%;
+         } 
+}
+
+@media(max-width:414px){
+    .flexsearch--wrapper {
+	   width:100%;
+        height: auto;
+        margin-top: 30%;
+        margin-left: -40%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 101%;
+}
+    
+    #logoClub{
+        left: 25%;
+        margin-top: 1%;
+    }
+    
+    #logoClub5{
+            margin-top:1%;
+             left: 25%;
+         } 
+}
+
+@media(max-width:400px){
+    .flexsearch--wrapper {
+	   width:100%;
+        height: auto;
+        margin-top: 30%;
+        margin-left: -40%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 100%;
+}
+    #logoClub{
+        left: 25%;
+        margin-top: 1%;
+    }
+    
+    #logoClub5{
+        left: 25%;
+        margin-top: 1%;
+    }
+}
+    
+@media(max-width:380px){
+     .flexsearch--wrapper {
+	   width:100%;
+        height: auto;
+        margin-top: 30%;
+        margin-left: -40%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 98%;
+}
+}
+
+@media(max-width:350px){
+       .flexsearch--wrapper {
+	   width:130%;
+        height: auto;
+        margin-top: 40%;
+        margin-left: -70%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 99%;
+}
+    
+    #logoClub{
+        left: 20%;
+        margin-top: 1%;
+    }
+    
+    #logoClub5{
+        left: 20%;
+        margin-top: 1%;
+    }
+}
+
+@media(max-width:340px){
+    .flexsearch--wrapper {
+	   width:130%;
+        height: auto;
+        margin-top: 40%;
+        margin-left: -75%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 97%;
+}
+    #logoClub{
+        left: 20%;
+        margin-top: 1%;
+    }
+}
+
+@media(max-width:320px){
+    .flexsearch--wrapper {
+	   width:170%;
+        height: auto;
+        margin-top: 50%;
+        margin-left: -115%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 98%;
+}
+    #logoClub{
+        left: 15%;
+        margin-top: 0%;
+    }
+    
+    #logoClub5{
+        left: 15%;
+        margin-top: 0%;
+    }
+}
+
+@media(max-width:300px){
+    .flexsearch--wrapper {
+	width: 200%;
+        height: auto;
+        margin-top: 60%;
+        margin-left: -140%;
+}
+    .glyphicon-search{
+    top: -24px;
+    left: 99%;
+}
+    #logoClub{
+        left: 15%;
+        margin-top: 0%;
+    }
+    
+    #logoClub5{
+        left: 15%;
+        margin-top: 0%;
+    }
+}
+
+@media(max-width:285px){
+     .flexsearch--wrapper {
+	width: 240%;
+        height: auto;
+        margin-top: 60%;
+        margin-left: -185%;
+}
+     #logoClub{
+        left: 10%;
+        margin-top: 0%;
+    }
+    
+    #logoClub5{
+        left: 10%;
+        margin-top: 0%;
+    }
+    
+    .glyphicon-search{
+    top: -24px;
+    left: 96%;
+}
+}

@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+/* ESTILOS PARA EL PRIMER BANNER */
+.item{
+width:100%;
+height:auto;
+}
+.carousel{
+
+}
+.bs-example{
+
+}
+
+
+.carousel img {
+width:100%;
+height:auto;
+}
+
+#carrusel_alimentos {
+	margin-top:13px;
+}
+
+#banner1_home {
+	margin-top:-40px;
+}
+
+.adaptable {
+	width:100%;
+	height:auto;
+}
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE ALIMENTOS*/
+
+#alim_descuento, #alim_2x1, #alim_regalo, #alim_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#alim_descuento:hover, #alim_2x1:hover, #alim_regalo:hover, #alim_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE ENTRETENIMIENTO*/
+
+#entre_descuento, #entre_2x1, #entre_regalo, #entre_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#entre_descuento:hover, #entre_2x1:hover, #entre_regalo:hover, #entre_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE HOGAR Y OFICINA*/
+
+#hogar_descuento, #hogar_2x1, #hogar_regalo, #hogar_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#hogar_descuento:hover, #hogar_2x1:hover, #hogar_regalo:hover, #hogar_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE SERVICIOS*/
+
+#servicios_descuento, #servicios_2x1, #servicios_regalo, #servicios_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#servicios_descuento:hover, #servicios_2x1:hover, #servicios_regalo:hover, #servicios_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE SALUD Y BELLEZA*/
+
+#salud_descuento, #salud_2x1, #salud_regalo, #salud_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#salud_descuento:hover, #salud_2x1:hover, #salud_regalo:hover, #salud_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE VIAJES*/
+
+#viajes_descuento, #viajes_2x1, #viajes_regalo, #viajes_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#viajes_descuento:hover, #viajes_2x1:hover, #viajes_regalo:hover, #viajes_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE LIBROS Y REVISTAS*/
+
+#libros_descuento, #libros_2x1, #libros_regalo, #libros_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#libros_descuento:hover, #libros_2x1:hover, #libros_regalo:hover, #libros_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER */
+/* PLANTILLA DE MODA*/
+
+#moda_descuento, #moda_2x1, #moda_regalo, #moda_experiencia{
+margin-top:13px;
+    opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+	}
+
+#moda_descuento:hover, #moda_2x1:hover, #moda_regalo:hover, #moda_experiencia:hover{
+    opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+}
+
+
+
+/* BANNER CENTRAL DE REGISTRO */ 
+#regAhora_alimentos {
+	background:#02577d;
+	min-height:50px;
+	margin:13px 0px;
+	padding:0;
+}
+
+#btn_regAhora {
+	width:90%;
+	height:auto;
+	padding:1px 5px 5px 5px;
+	background:#fbb715;
+	text-align:center !important;
+	border-radius:0px;
+	margin:18% 0% 0% 10%;
+	font-size:22pt;
+}
+
+#text_regAhora {
+	font-size:28pt;
+}
+
+.copyEncReg {
+	font-size:28pt;
+	color:#fff;
+	text-align:center;
+	margin:5% 5%;
+}
+
+/*BANNER DE FILTRADO POR ESTADO Y CIUDAD*/
+
+#filtrado_estado_ciudad{
+    background:#02577d;
+	min-height:50px;
+	margin:5px 0px;
+	padding:0;
+}
+
+.ciudadoestado{
+    font-size:18pt;
+	color:#fff;
+	text-align:left;
+	margin:9% -85% 9% 15%;
+}
+
+.btn_estados{
+    font-family: Movi-Regular;
+    font-size: 14pt;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #02577d;
+    width: 80%;
+}
+
+.btn_estados2{
+    font-family: Movi-Regular;
+    font-size: 14pt;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #02577d;
+    width: 390%;
+}
+
+#lista1{
+    font-family: Movi-Regular;
+    width:20%;
+	height:auto;
+    padding:0px 0px 0px 0px;
+	margin:2% 0% 0% 35%;
+	font-size:12pt;
+    /*border: #02577d 1px solid;*/
+}
+
+#lista2{
+    font-family: Movi-Regular;
+    width: 20%;
+	height:auto;
+	padding:25px 0px 0px 0px;
+    margin:-22% 0% 0% 90%;
+	font-size:12pt;
+    /*border: #02577d 1px solid;*/
+}
+
+.caret{
+    
+}

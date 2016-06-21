@@ -1,0 +1,80 @@
+/* Estilo de impresión */
+#logoClub{display: none;}
+.flexsearch--input{display: none;}
+#logoMovi_phone{display: none;}
+.adaptable{display: none;}
+#fondo_beneficio{display: none;}
+.titulo_benef{display: none;}
+.text_benef{display: none;}
+.codigo_benef1{display: none;}
+.text_cupon{display: none;}
+#btn_descargar{display: none;}
+#contenedor_mapa{display: none;}
+.twitter-share-button{display: none;}
+h4{display: none;}
+h3{display: none;}
+span{display: none;}
+.fot_text1{display: none;}
+#redes_foot{display: none;}
+.soc_foot{display: none;}
+.telefonica_foot{display: none;}
+#foot_pte2{display: none;}
+#imp_cup{display: none;}
+#cerrar{display: none;}
+a{display: none;}
+.colPaddingMovi {display: none;}
+.foot_hr{display: none;}
+.foot_alin{display: none;}
+.foot_hr_corto{display: none;}
+.foot_listas{display: none;}
+.links_mod{display: none;}
+.foot_alin_mapa{display: none;}
+.foot_hr_corto2{display: none;}
+.anu_sep_ft{display: none;}
+.foot_alin3{display: none;}
+.foot_alin3_correo{display: none;}
+.fb-like{display: none;}
+.modal-content2{border: 0px;
+margin-left: 10%;
+margin-top: -5%;}
+#pleca1_foot{display: none;}
+
+@media print {
+    
+body {
+        padding: 0px;
+        margin-top: -200px;
+}
+    
+.modal-content2{
+        margin-left: 12%;
+}
+
+#logoClub3{
+    width:190px; 
+    height:121px;
+    margin-left:0%;
+}
+
+.title_cupon {
+    font-family: Headline-Regular;
+    text-align: left;
+	font-size:20pt;
+    margin:1% 30% 0% 0%;
+}
+
+.text_cupones {
+    font-family: Headline-Regular;
+    font-size: 14pt;
+    text-align: left;
+	margin:2% 30% 0% 0%;
+}
+
+/*.telefonica_cupon{
+    width: 15%;
+    height: auto;
+    margin: 10% 80% 0% 0%;
+}*/
+
+ 
+}

@@ -1,0 +1,389 @@
+/*TEXTO DE LOGIN Y REGISTRO DE USUARIO NUEVO*/
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color:#fff;
+}
+
+h6 {
+	font-family: Headline-Regular;
+	font-size: 20pt;
+	color: #fff; /*00c1d2*/
+	margin-bottom: 2%;
+    text-align: center;
+}
+
+h7 {
+	font-family: Headline-Regular;
+	font-size: 20pt;
+	color: #fff;
+    margin-left: 24%;
+}
+
+/*LOGOTIPO DE CLUB MOVISTAR EN EL LOGIN */
+#logoClub2{
+    width:190px; 
+    height:121px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+#logoClubMovistar{
+    width:25%; 
+    height:auto;
+    margin-top: 33%;
+    margin-left: 38%;
+}
+/*TEXTBOX DEL LOGIN "NOMBRE, FECHA, CELULAR Y CORREO"*/
+
+.username{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.contrasena{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+#Recuperarcontrasena_login{
+    position: absolute;
+    font-family: Headline-Regular;
+    font-size: 12pt;
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 21%;
+}
+
+#Registrate_login{
+    position: absolute;
+    font-family: Headline-Regular;
+    font-size: 12pt;
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 9%;
+    margin-bottom: 5%;
+    margin-top: 30%;
+}
+
+/*LOS CUADROS DE TEXTO*/
+input {
+   font-family: Headline-Regular !important;
+	color: #005C84;
+    font-size: 10pt !important;
+    height: 26px !important;
+    text-align: center;
+}
+
+@media(max-width:991px){
+    .modal-content3{
+    margin-left: -20%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:860px){
+    .modal-content3{
+    width: 600px !important;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:767px){
+.modal-content{
+    width:300px;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+    
+    .modal-content3{
+    width: 600px !important;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:700px){
+    .modal-content3{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:647px){
+    .modal-content3{
+    margin-left: 0%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:600px){
+.modal-content{
+    margin-left: 20%;
+}
+    
+    .modal-content3{
+    width: 400px !important;
+    margin-left: 15%;
+    margin-top: 4%;
+    }
+}
+
+@media(max-width:480px){
+.modal-content{
+    margin-left: 10%;
+    margin-top: 10%;
+    width:350px;
+    height: auto;
+}
+    
+    #logoClub2{
+    margin-left: 20%;
+    margin-bottom: 0%;
+}
+    
+     h7 {
+    margin-left: 24%;
+}
+    
+    #Recuperarcontrasena_login{
+    margin-left: 22%;
+}
+
+#Registrate_login{
+    margin-left: 8%;
+}
+    
+    #logoClubMovistar{
+    width:20%; 
+    height:auto;
+    margin-top: 33%;
+    margin-left: 40%;
+}
+    
+    .modal-content3{
+    width: 400px !important;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+    
+}
+
+@media(max-width:430px){
+.modal-content3{
+    width: 400px !important;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:414px){
+.modal-content{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+    
+    .modal-content3{
+    width: 300px !important;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+}
+
+
+@media(max-width:380px){
+.modal-content{
+    margin-left: 1%;
+}
+}
+
+@media(max-width:360px){
+.modal-content{
+    width:300px;
+    margin-left: -3%;
+    margin-top: 15%;
+}
+    
+    h6 {
+    margin-top: -0%;
+	font-size: 14pt;
+	margin-bottom: 0%;
+    text-align: center;
+}
+    
+     h7 {
+	font-size: 14pt;
+	margin-bottom: 0%;
+    margin-left: 32%;
+}
+
+/*LOGOTIPO DE CLUB MOVISTAR EN EL LOGIN */
+#logoClub2{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+    
+#Recuperarcontrasena_login{
+    margin-left: 20%;
+    margin-top: 16%;
+}
+
+#Registrate_login{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 25%;
+}
+    
+input {
+    font-size: 8pt !important;
+}
+
+#logoClubMovistar{
+    width:25%; 
+    height:auto;
+    margin-top: 29%;
+    margin-left: 38%;
+}
+    
+#boton_entrar {
+    top: 95% !important;
+}
+    
+    .modal-content3{
+    width: 300px !important;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:350px){
+.modal-content{
+    margin-left: -4%;
+    margin-top: 15%;
+}
+}
+
+@media(max-width:340px){
+.modal-content{
+    width:280px !important;
+    height: auto;
+    margin-left: 6%;
+    margin-top: 15%;
+}
+
+    #logoClub2{
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
+    
+#Recuperarcontrasena_login{
+    margin-left: 16%;
+    margin-top: 16%;
+}
+
+#Registrate_login{
+    margin-left: 0%;
+    margin-bottom: 5%;
+    margin-top: 25%;
+}
+     h7 {
+    margin-left: 28%;
+}
+    .modal-content3{
+    width: 300px !important;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+    
+}
+
+@media(max-width:330px){
+.modal-content{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+}
+
+@media(max-width:320px){
+.modal-content{
+    margin-left: 1%;
+    margin-top: 15%;
+}
+    
+    .modal-content3{
+    width: 260px !important;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:300px){
+.modal-content{
+    width:250px;
+    margin-left: -3%;
+    margin-top: 15%;
+}
+    
+    h6 {
+	font-size: 14pt;
+	margin-bottom: 1%;
+    text-align: center;
+}
+    
+     h7 {
+	font-size: 14pt;
+	margin-bottom: 1%;
+    margin-left: 26%;
+}
+
+/*LOGOTIPO DE CLUB MOVISTAR EN EL LOGIN */
+#logoClub2{
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+    
+#Recuperarcontrasena_login{
+    margin-left: 13%;
+    margin-bottom: 5%;
+    margin-top: 22%;
+}
+
+#Registrate_login{
+    margin-left: -2%;
+    margin-bottom: 5%;
+    margin-top: 35%;
+}
+    
+input {
+    font-size: 8pt !important;
+}
+
+#logoClubMovistar{
+     width:30%; 
+    height:auto;
+    margin-top: 40%;
+    margin-left: 36%;
+}
+}
+
+@media(max-width:290px){
+.modal-content3{
+    width: 260px !important;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+}
+
+@media(max-width:280px){
+.modal-content{
+    margin-left: -5%;
+    margin-top: 15%;
+    }
+}

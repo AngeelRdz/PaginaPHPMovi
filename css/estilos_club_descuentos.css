@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* /////////////////////////////////// INICIA DESCUENTOS ///////////////////*/
+.img_pub_mas {
+	position:absolute;
+	bottom:0px;
+	right:7px;
+}
+
+.img_desc_resp {
+	width: 100% !important;
+	height: auto;
+}
+
+
+.imgAdaptable_ben {
+	width:100%;
+	height:auto;
+}
+
+.pic_preview {
+	background-position:0px 0px;
+}
+/* ////////////////////////////////////////////TERMINA DESCUENTOS ///////////////////////////*/

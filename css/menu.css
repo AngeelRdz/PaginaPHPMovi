@@ -1,0 +1,99 @@
+#menu {
+    float:left;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-color:#000000;
+}
+
+#menu li {
+    float:left;
+    list-style:none;
+}
+
+#menu li a {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    float:left;
+}
+
+#menu li a:hover {
+    background-color: #EEEEEE;
+    color: #000000;
+}
+
+.menu_select {
+    width:97%;
+    float:left;
+    display:none;
+    position:relative;
+}
+
+#selectme {
+    width:80%;
+    background-color:#000000;
+    color:#ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:left;
+    cursor:pointer;
+    float:left;
+}
+
+ul#options {
+    width:100%;
+    float:left;
+    margin:0px;
+    padding:0px;
+    display:none;
+}
+
+ul#options li {
+    width:98%;
+    float:left;
+
+}
+
+ul#options li a {
+    color: #ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:left;
+    text-decoration:none;
+    cursor:pointer;
+    margin-bottom:1px;
+    width:100%;
+    float:left;
+}
+
+ul#options li a:hover {
+    color:#000000;
+    background-color:#EEEEEE;
+    text-decoration: none;
+}
+
+ul#options li:hover {
+
+}
+
+#arrow {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+nav ul { display: none; }
+nav select { display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px; font-weight: bold; }
+nav .menu_select { display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px; font-weight: bold; }
+}
+
+@media screen and (max-width: 1024px) {
+      .menu
+}

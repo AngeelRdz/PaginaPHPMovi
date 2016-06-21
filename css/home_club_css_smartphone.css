@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************ESTILOS PARA smartphone ***********/
+
+@media (max-width:768px){
+	
+	/* BANNERS DEL HOME */
+#banner1_home {
+		margin-top:-5px;
+}
+	
+	/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER 2 */
+
+#home_descuento{
+
+margin-top:13px;
+	}
+    
+#home_2x1{
+margin-top:13px;
+	}
+    
+#home_regalo{
+
+	}
+    
+#home_experiencia{
+
+	}
+	
+/* REGISTRO */
+    
+/*#btn_regAhora {
+	margin:5% 5% 0% 5%;
+}
+
+#text_regAhora {
+	font-size:28pt;
+}
+
+.copyEncReg {
+	font-size:28pt;
+	color:#FFF;
+	text-align:right;
+	margin:5% 5%;
+}*/
+	
+/* SLIDER INFERIOR */
+    
+.moviNegroGrande {
+	font-family: Movi-Regular;
+	color: #000;
+	font-size: 1.3em;
+}
+
+#home_centrado {
+	text-align:center;
+}
+	
+}
+
+.contEditoriales {
+	font-size:32pt;
+	color:#325076;
+	text-align:center;
+	margin-top:30px;
+}
+

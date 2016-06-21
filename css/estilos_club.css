@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Estilos del sitio */
+
+@import url("estilos_club_template.css");
+@import url("css/estilos_club_tablet.css");
+@import url("css/estilos_club_smartphone.css");
+@import url("css/estilos_club_registro.css");
+@import url("css/estilos_club_reseteo.css");
+@import url("css/estilos_club_descuentos.css");
+@import url("css/estilos_club_vip.css");
+@import url("css/estilos_club_CUPONES.css");
+@import url("css/estilos_club_MENU.css");

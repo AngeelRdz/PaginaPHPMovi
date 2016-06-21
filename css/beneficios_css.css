@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.seccionBeneficio1 {
+	background:#11c5d7;
+	margin:5px 0;
+	font-size:20pt;
+	color:#FFF;
+	padding:10px 20px;
+}
+
+.seccionBeneficio2 {
+	background:#a3c937;
+	margin:5px 0;
+	font-size:20pt;
+	color:#325076;
+	padding:10px 20px;
+}
+
+.masBeneficios {
+	position:absolute;
+	right:5%;
+	top:9px;
+}
+
+
+

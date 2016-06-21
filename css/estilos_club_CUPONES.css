@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ESTILO DEL BOTON DE DESCARGAR*/
+
+#btn_descargar{
+    background:#fbb715;
+    width: 90%;
+    height: 50%;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 20pt;
+    margin: 0% 0% 10% 3%;
+}
+
+.text_cupon{
+    font-size: 18pt;
+    color: #fff;
+    margin: 5% 3% 2% 10%;
+}
+
+/*IMAGENES DE CUPONES*/
+.img_desc_resp {
+	width: 100% !important;
+	height: auto;
+}
+
+/* ESTILOS DEL POP UP PARA CUPONES */
+
+.modal-content2{
+    background: rgba(14,96,143,1);
+    background: -moz-linear-gradient(top, rgba(14,96,143,1) 0%, rgba(117,189,209,1) 59%, rgba(72,197,211,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(14,96,143,1)), color-stop(59%, rgba(117,189,209,1)), color-stop(100%, rgba(72,197,211,1)));
+    background: -webkit-linear-gradient(top, rgba(14,96,143,1) 0%, rgba(117,189,209,1) 59%, rgba(72,197,211,1) 100%);
+    background: -o-linear-gradient(top, rgba(14,96,143,1) 0%, rgba(117,189,209,1) 59%, rgba(72,197,211,1) 100%);
+    background: -ms-linear-gradient(top, rgba(14,96,143,1) 0%, rgba(117,189,209,1) 59%, rgba(72,197,211,1) 100%);
+    background: linear-gradient(to bottom, rgba(14,96,143,1) 0%, rgba(117,189,209,1) 59%, rgba(72,197,211,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e608f', endColorstr='#48c5d3', GradientType=0 );
+   border:8px solid #fff;
+    width:500px;
+    height: auto;
+    margin-left: -30%;
+}
+
+#logoClub3{
+       width:190px; 
+height:121px;
+    margin-left:0%;
+}
+
+.title_cupon {
+    font-family: Headline-Regular;
+    text-align: left;
+	font-size:15pt;
+	color:#FFF;
+    margin:1% 40% 0% 0%;
+}
+
+.text_cupones {
+    font-family: Headline-Regular;
+    text-align: left;
+	color:#FFF;
+	margin:2% 50% 0% 0%;
+}
+
+.telefonica_cupon{
+    width: 15%;
+    height: auto;
+    margin: 10% 80% 0% 0%;
+}
+
+.logo_cupon{
+    width: 25%;
+    height: auto;
+    margin: -170% 0% 0% -21%;
+}
+
+.codigo_qr {
+	width:25%;
+	height:auto;
+	margin:-104% 10% 3% 75%;
+}
+
+.codigo_barras {
+	width:25%;
+	height:auto;
+	margin:-50% 10% 6% 75%;
+}
+
+#imp_cup {
+    background:#fbb715;
+	width: 20%;
+	position: absolute;
+	bottom: 3%;
+	left: 75%;
+    height: auto;
+}
+
+/* IMAGEN DE PORTADA DE LOS BENEFICIOS*/
+
+.adaptable{
+    margin-top: 0.3%;
+    margin-bottom: 1%;
+}
+
+/*MEDIAS QUERIES DEL MODAL DE CUPON*/
+
+@media (max-width:767px){
+.modal-content2{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+}
+
+@media (max-width:650px){
+.modal-content2{
+    margin-left: 10%;
+}
+}
+
+@media (max-width:580px){
+.modal-content2{
+    margin-left: 5%;
+}
+}
+
+@media (max-width:540px){
+.modal-content2{
+    margin-left: 1%;
+}
+}
+
+@media (max-width:520px){
+.modal-content2{
+    margin-left: 10%;
+    width: 400px;
+}
+
+.telefonica_cupon{
+    width: 30%;
+    height: auto;
+    margin: 10% 80% 0% 0%;
+}
+    
+.logo_cupon{
+    width: 30%;
+    height: auto;
+    margin: -270% 0% 0% 70%;
+}
+
+.codigo_qr {
+	width:25%;
+	height:auto;
+	margin:-154% 10% 3% 75%;
+}
+
+.codigo_barras {
+	width:25%;
+	height:auto;
+	margin:-100% 10% 6% 75%;
+}
+
+#imp_cup {
+    background:#fbb715;
+	width: 25%;
+	position: absolute;
+	bottom: 3%;
+	left: 70%;
+    height: auto;
+}
+}
+
+@media (max-width:480px){
+.modal-content2{
+    margin-left: 5%;
+    width: 400px;
+    }
+}
+
+@media (max-width:440px){
+.modal-content2{
+    margin-left: 0%;
+    width: 400px;
+    }
+}
+
+@media (max-width:414px){
+.modal-content2{
+    margin-left: -1%;
+    width: 400px;
+    }
+}
+
+@media (max-width:400px){
+.modal-content2{
+    margin-left: 10%;
+    width: 300px;
+    }
+    
+.logo_cupon{
+    width: 35%;
+    height: auto;
+    margin: -350% 0% 0% 65%;
+}
+
+.codigo_qr {
+	width:35%;
+	height:auto;
+	margin:-234% 10% 3% 65%;
+}
+
+.codigo_barras {
+	width:35%;
+	height:auto;
+	margin:-120% 10% 6% 65%;
+}
+
+#imp_cup {
+    background:#fbb715;
+	width: 30%;
+	position: absolute;
+	bottom: 3%;
+	left: 65%;
+    height: auto;
+}
+}
+
+@media (max-width:340px){
+.modal-content2{
+    margin-left: 4%;
+    width: 300px;
+    }
+}
+
+@media (max-width:320px){
+.modal-content2{
+    margin-left: 0%;
+    width: 300px;
+    }
+}
+
+@media (max-width:300px){
+.modal-content2{
+    margin-left: 5%;
+    width: 255px;
+    }
+    
+.logo_cupon{
+    width: 40%;
+    height: auto;
+    margin: -350% 0% 0% 62%;
+}
+
+.codigo_qr {
+	width:40%;
+	height:auto;
+	margin:-254% 10% 3% 62%;
+}
+
+.codigo_barras {
+	width:40%;
+	height:auto;
+	margin:-160% 10% 6% 62%;
+}
+
+#imp_cup {
+    background:#fbb715;
+	width: 40%;
+	position: absolute;
+	bottom: 3%;
+	left: 55%;
+    height: auto;
+}
+}
+
+@media (max-width:280px){
+.modal-content2{
+    margin-left: 0%;
+    width: 255px;
+    }
+}
+
+/*MEDIAS QUERIES DEL CODIGO DE BARRAS Y WR Y BOTON DESCARGAR*/
+
+@media (max-width:1199px){
+.text_cupon{
+    font-size: 18pt;
+    color: #fff;
+    margin: 5% 3% 2% 1%;
+}
+}
+
+@media (max-width:991px){
+    .text_cupon{
+    text-align: center;
+    margin: 5% 3% 2% 5%;
+}
+
+.titulo_benef {
+    font-family: Headline-Regular;
+	font-size:30pt;
+	color:#FFF;
+	margin:5% 3%;
+}
+
+.text_benef {
+    font-family: Headline-Regular;
+	font-size:16pt;
+	color:#FFF;
+	margin:3% 3%;
+}
+}
+
+@media (max-width:767px){
+.codigo_benef1 {
+	width:30%;
+	height:auto;
+	margin:6% 10% 3% 10%;
+}
+
+.codigo_benef2 {
+	width:30%;
+	height:auto;
+	margin:-33% 10% 6% 60%;
+}
+}
+
+@media (max-width:600px){
+    .titulo_benef {
+	font-size:24pt;
+	color:#FFF;
+	margin:5% 3%;
+}
+
+.text_benef {
+	font-size:14pt;
+	color:#FFF;
+	margin:3% 3%;
+}
+}
+
+@media (max-width:500px){
+    .titulo_benef {
+	font-size:22pt;
+}
+
+.text_benef {
+	font-size:12pt;
+}
+}
+
+@media (max-width:414px){
+    .titulo_benef {
+	font-size:18pt;
+}
+
+.text_benef {
+	font-size:12pt;
+}
+}

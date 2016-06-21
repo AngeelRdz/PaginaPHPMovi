@@ -1,0 +1,530 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+}
+
+html {
+	margin:0;
+	padding:0;
+}
+
+/* ESTILOS PARA EL PRIMER BANNER */
+.item{
+width:100%;
+height:auto;
+}
+.carousel{
+
+}
+.bs-example{
+
+}
+
+.carousel img {
+width:100%;
+height:auto;
+}
+
+#myCarousel2 {
+
+}
+
+#banner1_home {
+	margin-top:-48px;
+}
+
+.adaptable {
+	width:100%;
+}
+
+
+/* ESTILOS DE LOS RECUADROS AL LADO DEL BANNER 2 */
+
+#home_desc{
+
+	}
+#txt_descuento {
+	
+}
+#home_2x1{
+
+	}
+#home_regalo{
+margin-top:13px;
+	}
+#home_experiencia{
+	margin-top:13px;
+	}
+
+
+#home_btn_1, #home_btn_2, #home_btn_3, #home_btn_4, #home_btn_5, #home_btn_6, #home_btn_7, #home_btn_8, #home_btn_9, #home_btn_10, #home_btn_11, #home_btn_12 {
+			opacity: 1.0;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+			filter: alpha(opacity = 100);
+			}
+
+#home_btn_1:hover, #home_btn_2:hover, #home_btn_3:hover, #home_btn_4:hover, #home_btn_5:hover, #home_btn_6:hover, #home_btn_7:hover, #home_btn_8:hover, #home_btn_9:hover, #home_btn_10:hover, #home_btn_11:hover, #home_btn_12:hover {
+			opacity: 0.4;
+			-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+			filter: alpha(opacity = 40);
+			transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			}
+
+
+
+	
+/*ESTILO DE LA FUENTE DEBAJO DE LOS RECUADROS*/
+
+.texto_recuadros{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+.texto_recuadros2{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+.texto_recuadros3{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+.texto_recuadros4{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+ /*RESPONSIVE DEL LOGOTIPO DE CLUB MOVISTAR*/
+/*@media screen and (max-width: 768px){
+         #myCarousel{
+            width:150px;
+            height:65px;
+         }    
+}
+
+@media screen and (max-width: 480px){
+         #myCarousel{
+            width:100px;
+            height:61px;
+         }    
+}
+
+@media screen and (max-width: 320px){
+         #myCarousel{
+            width:100px;
+            height:61px;
+         }    
+}*/
+
+	
+/* BANNER CENTRAL DE REGISTRO */ 
+#regAhora {
+	background:#02577d;
+	min-height:50px;
+	margin:8px 0px 25px 0px;
+	padding:0;
+}
+
+#btn_regAhora {
+	width:90%;
+	height:auto;
+	padding:1px 5px 5px 5px;
+	background:#fbb715;
+	text-align:center !important;
+	border-radius:0px;
+	margin:15% 0% 0% 10%;
+	font-size:22pt;
+}
+
+#text_regAhora {
+	font-size:28pt;
+} 
+
+/*FUENTE DEL CUADRO, A LADO DEL BOTON DE "REGISTRATE"*/
+.copyEncReg {
+	font-size:26pt;
+	color:#FFF;
+	text-align:right;
+	margin:5% 5%;
+}
+
+
+/*MEDIAS QUERIES*/
+
+@media (max-width:1200px){
+    #btn_regAhora{
+        margin: 25% 5% 0% 20%;
+    }
+}
+
+@media (max-width:1024px){
+    #regAhora {
+	margin:5px 0px 25px 0px;
+	padding:0;
+}
+    
+    #btn_regAhora{
+        margin:25% 5% 0% 18%;
+    }
+}
+
+
+  
+@media (max-width:980px){
+    #regAhora {
+	margin:5px 0px 25px 0px;
+	padding:0;
+}
+    
+    #btn_regAhora{
+        margin: 40% 5% 0% 18%;
+    }
+}
+
+
+@media (max-width:768px){
+    
+    /* REGISTRO */
+ #regAhora {
+	margin:1px 0px 25px 0px;
+	padding:0;
+}
+    
+#btn_regAhora {
+	margin:25% 5% 0% 25%;
+}
+
+#text_regAhora {
+	font-size:28pt;
+}
+
+.copyEncReg {
+	font-size:22pt;
+	color:#FFF;
+	text-align:right;
+	margin:5% 5%;
+}
+}
+
+@media (max-width:767px){
+      /* REGISTRO */
+ #regAhora {
+	margin:40px 0px 25px 0px;
+	padding:0;
+}
+    /* REGISTRO */
+    
+#btn_regAhora {
+	margin:5% 5% 0% 5%;
+    }
+    
+    .copyEncReg {
+	
+	text-align:center;
+	
+}
+    #home_btn_9, #home_btn_10{
+        margin-top: 30px;
+    }
+}
+/* BOTONES INFERIORES */
+
+.btn_home_inf {
+	margin-top:10px;
+}
+
+.pad_diferente {
+    padding: 0 5px;
+}
+
+.btn_inferiores {
+	margin: 13px 10px !important;
+}
+
+/* TITULO DE CONTENIDOS EDITORIALES */
+.fondoBlanco {
+	background:#FFF;
+	margin:0px 0px;
+}
+.contEditoriales {
+	font-size:42pt;
+	color:#325076;
+	text-align:center;
+	margin-top:30px;
+}
+
+.marTop {
+	margin-top:13px;
+}
+
+.padInf {
+	padding-bottom:40px;
+}
+
+@media (max-width:500px){
+    
+.texto_recuadros{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+.texto_recuadros2{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+.texto_recuadros3{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+}
+
+.texto_recuadros4{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:16pt;
+	color: #0e567e;
+    }
+}
+
+@media (max-width:480px){
+    .copyEncReg {
+	font-size:20pt;
+	color:#FFF;
+	text-align:center;
+	margin:5% 5%;
+}
+    
+}
+
+@media (max-width:351px){
+.texto_recuadros{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+
+.texto_recuadros2{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+
+.texto_recuadros3{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+
+.texto_recuadros4{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+}
+
+
+
+@media (max-width:320px){
+.texto_recuadros{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+
+.texto_recuadros2{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+
+.texto_recuadros3{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+
+.texto_recuadros4{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:12pt;
+	color: #0e567e;
+}
+}
+
+
+@media (max-width:304px){
+.texto_recuadros{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:10pt;
+	color: #0e567e;
+}
+
+.texto_recuadros2{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:10pt;
+	color: #0e567e;
+}
+
+.texto_recuadros3{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:10pt;
+	color: #0e567e;
+}
+
+.texto_recuadros4{
+    font-family: Movi-Regular;
+    text-align: center;
+	font-size:10pt;
+	color: #0e567e;
+}
+}
+
+
+
+/* PARA HACER ANIMABLES LOS BOTONES */
+/*
+#home_btn_1, #home_btn_2, #home_btn_3, #home_btn_4, #home_btn_5, #home_btn_6, #home_btn_7, #home_btn_8 , #home_btn_9, #home_btn_10, #home_btn_11, #home_btn_12 {
+	transition: all ease .3s;
+	-moz-transition: all ease .3s;
+	-webkit-transition: all ease .3s;
+	-o-transition: all ease .3s;
+	-ms-transition: all ease .3s;
+	
+	transform:rotateY(0deg);
+	-moz-transform:rotateY(0deg);
+	-webkit-transform:rotateY(0deg);
+	-o-transform:rotateY(0deg);
+	-ms-transform:rotateY(0deg);
+	
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-position:8px 1px;
+	margin-top:13px; 
+}
+*/
+
+
+#home_btn_1 img, #home_btn_2 img, #home_btn_3 img, #home_btn_4 img, #home_btn_5 img, #home_btn_6 img, #home_btn_7 img, #home_btn_8 img , #home_btn_9 img, #home_btn_10 img, #home_btn_11 img, #home_btn_12 img{
+	transition: all ease .3s;
+	-moz-transition: all ease .3s;
+	-webkit-transition: all ease .3s;
+	-o-transition: all ease .3s;
+	-ms-transition: all ease .3s;
+	width:100%;
+	height:auto;
+}
+
+/*
+#home_btn_1:hover, #home_btn_2:hover, #home_btn_3:hover, #home_btn_4:hover, #home_btn_5:hover, #home_btn_6:hover, #home_btn_7:hover, #home_btn_8:hover , #home_btn_9:hover , #home_btn_10:hover, #home_btn_11:hover, #home_btn_12:hover{
+    transform:rotateY(1800deg);
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	
+}*/
+
+/*
+#home_btn_1:hover {
+	background-image:url(../img/digital_over.png);  
+}
+
+#home_btn_2:hover {
+	background-image:url(../img/musica_over.png);
+}
+
+#home_btn_3:hover {
+	background-image:url(../img/cine_over.png);
+}
+
+#home_btn_4:hover {
+	background-image:url(../img/arte_over.png);
+}
+
+#home_btn_5:hover {
+	background-image:url(../img/salud_over.png);
+}
+
+#home_btn_6:hover {
+	background-image:url(../img/deportes_over.png);
+}
+
+#home_btn_7:hover {
+	background-image:url(../img/culinaria_over.png);
+}
+
+#home_btn_8:hover {
+	background-image:url(../img/360_over.png);
+}
+
+#home_btn_9:hover {
+	background-image:url(../img/descuentos.png);
+}
+
+#home_btn_10:hover {
+	background-image:url(../img/2x1.png);
+}
+
+#home_btn_11:hover {
+	background-image:url(../img/regalo.png);
+}
+
+#home_btn_12:hover {
+	background-image:url(../img/experiencia.png);
+}
+
+
+#home_btn_1 img:hover, #home_btn_2 img:hover, #home_btn_3 img:hover, #home_btn_4 img:hover, #home_btn_5 img:hover, #home_btn_6 img:hover, #home_btn_7 img:hover, #home_btn_8 img:hover , #home_btn_9 img:hover  , #home_btn_10 img:hover  , #home_btn_11 img:hover  , #home_btn_12 img:hover {
+opacity:0;
+}*/
+
+
+/* SLIDER INFERIOR */
+.moviNegroGrande {
+	font-family: Movi-Regular;
+	color: #000;
+	font-size: 1.5em;
+}
+
+#home_centrado {
+	text-align:center;
+}
+
+.promHome {
+	font-size:32pt;
+	color:#325076;
+}
+
+.textpromHome {
+	font-size:16pt;
+}

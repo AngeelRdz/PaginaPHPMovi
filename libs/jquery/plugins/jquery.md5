@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="http://www.jquerysdk.com/"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<meta name="generator" content="MediaWiki 1.15.2" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="jQuery SDK API (en-US)" />
+		<link rel="alternate" type="application/rss+xml" title="jQuery SDK API RSS Feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="jQuery SDK API Atom Feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>jQuery.md5 - jQuery SDK API</title>
+		<link   type="image/x-icon"   href="wiki/favicon.ico" rel="icon"/>
+		<link   type="text/css"       href="http://src.jquerysdk.com/latest/style/pkg/WyJqUXVlcnkudWkuY29yZSIsImpRdWVyeS51aS50YWJzIl0=.min.css" rel="stylesheet"/>
+		<script type="text/javascript">jQueryConfig = {depend:{pluginRoot:'http://src.jquerysdk.com/latest/script'}};</script>
+		<script type="text/javascript" src="http://src.jquerysdk.com/latest/script/pkg/eyJwbHVnaW4iOlsialF1ZXJ5LmNvcmUiLCJqUXVlcnkuZWFjaCIsImpRdWVyeS5zdHJpbmciLCJqUXVlcnkuY2xhc3MiLCJqUXVlcnkudWkuY29yZSIsImpRdWVyeS51aS53aWRnZXQiLCJqUXVlcnkudWkudGFicyJdfQ==.min.js"></script>
+		<link rel="stylesheet" href="/wiki/skins/common/shared.css?207" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/wiki/skins/common/commonPrint.css?207" type="text/css" media="print" />
+		<link rel="stylesheet" href="/wiki/skins/sdk/main.css?207" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="/wiki/skins/sdk/IE50Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="/wiki/skins/sdk/IE55Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="/wiki/skins/sdk/IE60Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="/wiki/skins/sdk/IE70Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="/wiki/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/wiki/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="/wiki/index.php?title=MediaWiki:sdk.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/wiki/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="/wiki/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "sdk";
+		var stylepath = "/wiki/skins";
+		var wgArticlePath = "/docs/$1";
+		var wgScriptPath = "/wiki";
+		var wgScript = "/wiki/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "http://www.jquerysdk.com";
+		var wgCanonicalNamespace = "Special";
+		var wgCanonicalSpecialPageName = "API";
+		var wgNamespaceNumber = -1;
+		var wgPageName = "Special:API";
+		var wgTitle = "API";
+		var wgAction = "view";
+		var wgArticleId = 0;
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en-US";
+		var wgContentLanguage = "en-US";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 0;
+		var wgVersion = "1.15.2";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="/wiki/skins/common/wikibits.js?207"></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/wiki/skins/common/ajax.js?207"></script>
+		<script type="text/javascript" src="/wiki/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=sdk"></script>
+	</head>
+<body class="mediawiki ltr ns--1 ns-special page-Special_API skin-sdk">
+<div id="globalWrapper">
+	<div id="column-one">
+		<div class="portlet" id="p-mainNavigation">
+			<h5>Main Navigation</h5>
+			<div class="pBody">
+			<ul>
+				<li><a href="/docs/Downloads">Downloads</a></li><li><a href="http://jquerysdk.com">Documentation</a></li><li><a href="/category/all">API</a></li><li><a href="/docs/jQuery_SDK:About">About</a></li><li><a href="/docs/jQuery_SDK:Donate">Donate</a></li>
+			</ul>
+			</div>
+		</div>
+		<div class="portlet" id="p-logo">
+			<h5>API</h5>
+			<div class="pBody" style="background-image: url(/wiki/logo.png);">
+				<a href="/docs/Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+			</div>
+		</div>
+		<div class="portlet" id="p-search">
+			<h5><label for="searchInput">Search</label></h5>
+			<div id="searchBody" class="pBody">
+				<form id="searchform" action="category/all" method="post">
+				<div>
+					<input id="searchInput" type="text" name="ext-search" value="" />
+					<input id="mw-searchButton" type="image" class="searchButton" alt="Search" src="wiki/skins/sdk/blank.gif" />
+				</div>
+				</form>
+			
+			</div>
+		</div>
+	</div>
+	<div id="column-content">
+		<div id="bodyContent">
+		<a id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">jQuery.md5</h1>
+				<h3 id="siteSub">From jQuery SDK API</h3>
+		<div id="contentSub"></div>
+						<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>		<!-- start content -->
+		<ul class="ext-category"><li data-searchkey="jQuery.md5()">
+<h2 class="title"><a href="/api/jQuery.md5">jQuery.md5()</a></h2>
+<span class="categories"><a href="/category/utilities">Utilities</a></span><p class="desc">Get MD5 hash from string.</p>
+</li></ul><div class="printfooter">
+Retrieved from "<a href="http://www.jquerysdk.com/docs/Special:API">http://www.jquerysdk.com/docs/Special:API</a>"</div>
+		<!-- end content -->
+		<script type="text/javascript">
+		(function($){
+			// summerize content in boxes
+			var bodyContent = $('#bodyContent'),
+				bodyContents = bodyContent.children().not('script'),
+				context = bodyContent,
+				box;
+			bodyContents
+				.each(function(){
+					var elem = $(this);
+					if( elem.is('a:empty') ){
+						context = elem;
+						return;
+					}
+					if( elem.is('h1, h2') || !box ){
+						box = $('<div class="content' + (elem.is(".ext-entry") ?  ' ext-entry' : "") + '"></div>').insertAfter(context);
+					}
+					elem.appendTo(box);
+				});
+			
+			$.ready({
+				plugin: 'jQuery.string',
+				DOM: true
+			}, function($){
+				// search API list
+				var listELem = $('ul.ext-category');
+				$('#searchInput[name="ext-search"]')
+					.bind('keyup',function(){
+						var val = $(this).val(),
+							exp = new RegExp( jQuery.escExpStr(val), 'i' );
+						if( val ){
+							listELem.children('li').each(function(){
+								var elem = $(this);
+								elem[ exp.test(elem.attr('data-searchkey')) ? 'show' : 'hide' ]();
+							});
+						}
+						else{
+							listELem.children('li').show();
+						}
+					})
+					.trigger('keyup');
+					
+				// special link handling
+				var extern = /^https?:\/\/(?!(?:www\.)?jquerysdk\.com)/i,
+					jumper = /^#/,
+					base = location.protocol + '//' + (location.host || location.hostname) + location.pathname;
+				$(document)
+					.on('click', 'a', function(){
+						var href = $(this).attr('href');
+						// open external link in new window
+						if( extern.test(href) ){
+							event.preventDefault();
+							window.open( href, '_blank' );
+						}
+						// jump to id
+						if( jumper.test(href) ){
+							event.preventDefault();
+							location.href = base + href;
+						}
+					});
+				
+				// simply tree handling
+				$('#p-categories span.plus:not(:empty)')
+					.live( 'click', function( event ){
+						var elem = $(this), plus = elem.text()=='+';
+						event.preventDefault();
+						elem.text( plus ? '-' : '+' ).parent().next()[ plus ? 'show' : 'hide' ]();
+					});
+				$('#p-categories .tree-default').parents('#p-categories ul > li').find('> a span:not(:empty)').click();
+			});
+		})(jQuery);
+		</script>
+		</div>
+		<div class="copyright">
+			&copy; Copyright by <a href="docs/jQuery_SDK:About">jQuery SDK Project</a>.
+			Documentation of original jQuery and jQuery UI methods are pulled from jQuery properties and copyright by <a target="_blank" href="http://jquery.org">jQuery Foundation.</a> 
+		</div>
+	</div>
+		<div id="column-two">
+		<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class="portlet" id="p-categories">
+			<h5>Categories</h5>
+			<div class="pBody">
+				<ul>
+<li>
+<a href="/category/ajax"><span class="plus">+</span>Ajax</a><ul>
+<li><a href="/category/global-ajax-event-handlers"><span class="plus"></span>Global Ajax Event Handlers</a></li>
+<li><a href="/category/helper-functions"><span class="plus"></span>Helper Functions</a></li>
+<li><a href="/category/low-level-interface"><span class="plus"></span>Low-Level Interface</a></li>
+<li><a href="/category/shorthand-methods"><span class="plus"></span>Shorthand Methods</a></li>
+</ul>
+</li>
+<li><a href="/category/attributes"><span class="plus"></span>Attributes</a></li>
+<li><a href="/category/callbacks-object"><span class="plus"></span>Callbacks Object</a></li>
+<li><a href="/category/core"><span class="plus"></span>Core</a></li>
+<li><a href="/category/css"><span class="plus"></span>CSS</a></li>
+<li><a href="/category/data"><span class="plus"></span>Data</a></li>
+<li><a href="/category/deferred-object"><span class="plus"></span>Deferred Object</a></li>
+<li><a href="/category/dimensions"><span class="plus"></span>Dimensions</a></li>
+<li>
+<a href="/category/effects"><span class="plus">+</span>Effects</a><ul>
+<li><a href="/category/basics"><span class="plus"></span>Basics</a></li>
+<li><a href="/category/custom"><span class="plus"></span>Custom</a></li>
+<li><a href="/category/fading"><span class="plus"></span>Fading</a></li>
+<li><a href="/category/sliding"><span class="plus"></span>Sliding</a></li>
+</ul>
+</li>
+<li>
+<a href="/category/events"><span class="plus">+</span>Events</a><ul>
+<li><a href="/category/browser-events"><span class="plus"></span>Browser Events</a></li>
+<li><a href="/category/document-loading"><span class="plus"></span>Document Loading</a></li>
+<li><a href="/category/event-handler-attachment"><span class="plus"></span>Event Handler Attachment</a></li>
+<li><a href="/category/event-object"><span class="plus"></span>Event Object</a></li>
+<li><a href="/category/form-events"><span class="plus"></span>Form Events</a></li>
+<li><a href="/category/keyboard-events"><span class="plus"></span>Keyboard Events</a></li>
+<li><a href="/category/mouse-events"><span class="plus"></span>Mouse Events</a></li>
+</ul>
+</li>
+<li><a href="/category/forms"><span class="plus"></span>Forms</a></li>
+<li><a href="/category/internals"><span class="plus"></span>Internals</a></li>
+<li>
+<a href="/category/manipulation"><span class="plus">+</span>Manipulation</a><ul>
+<li><a href="/category/class-attribute"><span class="plus"></span>Class Attribute</a></li>
+<li><a href="/category/copying"><span class="plus"></span>Copying</a></li>
+<li><a href="/category/dom-insertion"><span class="plus"></span>DOM Insertion</a></li>
+<li><a href="/category/dom-insertion-around"><span class="plus"></span>DOM Insertion, Around</a></li>
+<li><a href="/category/dom-insertion-inside"><span class="plus"></span>DOM Insertion, Inside</a></li>
+<li><a href="/category/dom-insertion-outside"><span class="plus"></span>DOM Insertion, Outside</a></li>
+<li><a href="/category/dom-removal"><span class="plus"></span>DOM Removal</a></li>
+<li><a href="/category/dom-replacement"><span class="plus"></span>DOM Replacement</a></li>
+<li><a href="/category/general-attributes"><span class="plus"></span>General Attributes</a></li>
+<li><a href="/category/style-properties"><span class="plus"></span>Style Properties</a></li>
+</ul>
+</li>
+<li>
+<a href="/category/miscellaneous"><span class="plus">+</span>Miscellaneous</a><ul>
+<li><a href="/category/collection-manipulation"><span class="plus"></span>Collection Manipulation</a></li>
+<li><a href="/category/data-storage"><span class="plus"></span>Data Storage</a></li>
+<li><a href="/category/dom-element-methods"><span class="plus"></span>DOM Element Methods</a></li>
+<li><a href="/category/setup-methods"><span class="plus"></span>Setup Methods</a></li>
+</ul>
+</li>
+<li><a href="/category/offset"><span class="plus"></span>Offset</a></li>
+<li>
+<a href="/category/plugins"><span class="plus">+</span>Plugins</a><ul>
+<li><a href="/category/jquery.fn.equalsize"><span class="plus"></span>jQuery.fn.equalSize</a></li>
+<li><a href="/category/jquery.fn.form"><span class="plus"></span>jQuery.fn.form</a></li>
+<li><a href="/category/jquery.fn.json"><span class="plus"></span>jQuery.fn.json</a></li>
+<li><a href="/category/jquery.fn.prop"><span class="plus"></span>jQuery.fn.prop</a></li>
+<li><a href="/category/jquery.fn.scrollto"><span class="plus"></span>jQuery.fn.scrollTo</a></li>
+<li><a href="/category/jquery.fn.size"><span class="plus"></span>jQuery.fn.size</a></li>
+<li><a href="/category/jquery.fn.text"><span class="plus"></span>jQuery.fn.text</a></li>
+<li><a href="/category/jquery.i18n"><span class="plus"></span>jQuery.i18n</a></li>
+<li><a href="/category/jquery.json"><span class="plus"></span>jQuery.json</a></li>
+<li><a href="/category/jquery.json.fix"><span class="plus"></span>jQuery.json.fix</a></li>
+<li><a href="/category/jquery.md5"><span class="plus tree-default"></span>jQuery.md5</a></li>
+<li><a href="/category/jquery.metadata"><span class="plus"></span>jQuery.metadata</a></li>
+<li><a href="/category/jquery.metaparse"><span class="plus"></span>jQuery.metaparse</a></li>
+<li><a href="/category/jquery.mime"><span class="plus"></span>jQuery.mime</a></li>
+<li><a href="/category/jquery.mixin"><span class="plus"></span>jQuery.mixin</a></li>
+<li><a href="/category/jquery.param"><span class="plus"></span>jQuery.param</a></li>
+<li><a href="/category/jquery.scope"><span class="plus"></span>jQuery.scope</a></li>
+<li><a href="/category/jquery.storage"><span class="plus"></span>jQuery.storage</a></li>
+<li><a href="/category/jquery.string"><span class="plus"></span>jQuery.string</a></li>
+<li><a href="/category/jquery.support.cssprefix"><span class="plus"></span>jQuery.support.cssprefix</a></li>
+<li><a href="/category/jquery.support.flash"><span class="plus"></span>jQuery.support.flash</a></li>
+<li><a href="/category/jquery.support.multipleupload"><span class="plus"></span>jQuery.support.multipleUpload</a></li>
+<li><a href="/category/jquery.support.placeholder"><span class="plus"></span>jQuery.support.placeholder</a></li>
+<li><a href="/category/jquery.support.touch"><span class="plus"></span>jQuery.support.touch</a></li>
+<li><a href="/category/jquery.tmpl"><span class="plus"></span>jQuery.tmpl</a></li>
+<li><a href="/category/jquery.array"><span class="plus"></span>jQuery.array</a></li>
+<li><a href="/category/jquery.base64"><span class="plus"></span>jQuery.base64</a></li>
+<li><a href="/category/jquery.base64.fix"><span class="plus"></span>jQuery.base64.fix</a></li>
+<li><a href="/category/jquery.class"><span class="plus"></span>jQuery.class</a></li>
+<li><a href="/category/jquery.color"><span class="plus"></span>jQuery.color</a></li>
+<li><a href="/category/jquery.compareversion"><span class="plus"></span>jQuery.compareVersion</a></li>
+<li><a href="/category/jquery.cookie"><span class="plus"></span>jQuery.cookie</a></li>
+<li><a href="/category/jquery.css.borderradius"><span class="plus"></span>jQuery.css.borderradius</a></li>
+<li><a href="/category/jquery.debug.sortplugins"><span class="plus"></span>jQuery.debug.sortPlugins</a></li>
+<li><a href="/category/jquery.dict"><span class="plus"></span>jQuery.dict</a></li>
+<li><a href="/category/jquery.each"><span class="plus"></span>jQuery.each</a></li>
+<li><a href="/category/jquery.event.fix"><span class="plus"></span>jQuery.event.fix</a></li>
+<li><a href="/category/jquery.event.special.dom"><span class="plus"></span>jQuery.event.special.dom</a></li>
+<li><a href="/category/jquery.event.special.mouse"><span class="plus"></span>jQuery.event.special.mouse</a></li>
+<li><a href="/category/jquery.event.special.touch"><span class="plus"></span>jQuery.event.special.touch</a></li>
+<li><a href="/category/jquery.expr"><span class="plus"></span>jQuery.expr</a></li>
+<li><a href="/category/jquery.fn.attr"><span class="plus"></span>jQuery.fn.attr</a></li>
+<li><a href="/category/jquery.fn.bound"><span class="plus"></span>jQuery.fn.bound</a></li>
+<li><a href="/category/jquery.fn.class"><span class="plus"></span>jQuery.fn.class</a></li>
+<li><a href="/category/jquery.fn.datalink"><span class="plus"></span>jQuery.fn.datalink</a></li>
+<li><a href="/category/jquery.ui.accordion"><span class="plus"></span>jQuery.ui.accordion</a></li>
+<li><a href="/category/jquery.ui.autocomplete"><span class="plus"></span>jQuery.ui.autocomplete</a></li>
+<li><a href="/category/jquery.ui.button"><span class="plus"></span>jQuery.ui.button</a></li>
+<li><a href="/category/jquery.ui.datepicker"><span class="plus"></span>jQuery.ui.datepicker</a></li>
+<li><a href="/category/jquery.ui.dialog"><span class="plus"></span>jQuery.ui.dialog</a></li>
+<li><a href="/category/jquery.ui.draggable"><span class="plus"></span>jQuery.ui.draggable</a></li>
+<li><a href="/category/jquery.ui.droppable"><span class="plus"></span>jQuery.ui.droppable</a></li>
+<li><a href="/category/jquery.ui.position"><span class="plus"></span>jQuery.ui.position</a></li>
+<li><a href="/category/jquery.ui.progressbar"><span class="plus"></span>jQuery.ui.progressbar</a></li>
+<li><a href="/category/jquery.ui.resizable"><span class="plus"></span>jQuery.ui.resizable</a></li>
+<li><a href="/category/jquery.ui.scrollbox"><span class="plus"></span>jQuery.ui.scrollbox</a></li>
+<li><a href="/category/jquery.ui.selectable"><span class="plus"></span>jQuery.ui.selectable</a></li>
+<li><a href="/category/jquery.ui.slider"><span class="plus"></span>jQuery.ui.slider</a></li>
+<li><a href="/category/jquery.ui.sortable"><span class="plus"></span>jQuery.ui.sortable</a></li>
+<li><a href="/category/jquery.ui.tabs"><span class="plus"></span>jQuery.ui.tabs</a></li>
+<li><a href="/category/jquery.ui.widget"><span class="plus"></span>jQuery.ui.widget</a></li>
+<li><a href="/category/jquery.uid"><span class="plus"></span>jQuery.uid</a></li>
+<li><a href="/category/jquery.utf8"><span class="plus"></span>jQuery.utf8</a></li>
+<li><a href="/category/jquery.xml"><span class="plus"></span>jQuery.xml</a></li>
+</ul>
+</li>
+<li>
+<a href="/category/properties"><span class="plus">+</span>Properties</a><ul>
+<li><a href="/category/properties-of-jquery-object-instances"><span class="plus"></span>Properties of jQuery Object Instances </a></li>
+<li><a href="/category/properties-of-jqueryconfig"><span class="plus"></span>Properties of jQueryConfig</a></li>
+<li><a href="/category/properties-of-the-global-jquery-object"><span class="plus"></span>Properties of the Global jQuery Object</a></li>
+</ul>
+</li>
+<li>
+<a href="/category/selectors"><span class="plus">+</span>Selectors</a><ul>
+<li><a href="/category/attribute"><span class="plus"></span>Attribute</a></li>
+<li><a href="/category/basic"><span class="plus"></span>Basic</a></li>
+<li><a href="/category/basic-filter"><span class="plus"></span>Basic Filter</a></li>
+<li><a href="/category/child-filter"><span class="plus"></span>Child Filter</a></li>
+<li><a href="/category/content-filter"><span class="plus"></span>Content Filter</a></li>
+<li><a href="/category/form"><span class="plus"></span>Form</a></li>
+<li><a href="/category/hierarchy"><span class="plus"></span>Hierarchy</a></li>
+<li><a href="/category/jquery-extensions"><span class="plus"></span>jQuery Extensions</a></li>
+<li><a href="/category/visibility-filter"><span class="plus"></span>Visibility Filter</a></li>
+</ul>
+</li>
+<li>
+<a href="/category/traversing"><span class="plus">+</span>Traversing</a><ul>
+<li><a href="/category/filtering"><span class="plus"></span>Filtering</a></li>
+<li><a href="/category/miscellaneous-traversing"><span class="plus"></span>Miscellaneous Traversing</a></li>
+<li><a href="/category/tree-traversal"><span class="plus"></span>Tree Traversal</a></li>
+</ul>
+</li>
+<li><a href="/category/ui"><span class="plus"></span>UI</a></li>
+<li><a href="/category/utilities"><span class="plus"></span>Utilities</a></li>
+<li>
+<a href="/category/version"><span class="plus">+</span>Version</a><ul>
+<li><a href="/category/version-1.0"><span class="plus"></span>Version 1.0</a></li>
+<li><a href="/category/version-1.0.1"><span class="plus"></span>Version 1.0.1</a></li>
+<li><a href="/category/version-1.0.2"><span class="plus"></span>Version 1.0.2</a></li>
+<li><a href="/category/version-1.0.3"><span class="plus"></span>Version 1.0.3</a></li>
+<li><a href="/category/version-1.1"><span class="plus"></span>Version 1.1</a></li>
+<li><a href="/category/version-1.1.1"><span class="plus"></span>Version 1.1.1</a></li>
+<li><a href="/category/version-1.2"><span class="plus"></span>Version 1.2</a></li>
+<li><a href="/category/version-1.2.1"><span class="plus"></span>Version 1.2.1</a></li>
+<li><a href="/category/version-1.3"><span class="plus"></span>Version 1.3</a></li>
+<li><a href="/category/version-1.3.1"><span class="plus"></span>Version 1.3.1</a></li>
+</ul>
+</li>
+</ul>			</div>
+		</div>
+		<div class="portlet" id="p-personal">
+			<h5>Personal tools</h5>
+			<div class="pBody">
+				<ul>
+					<li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Special:API" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="portlet" id="p-about">
+			<h5>About</h5>
+			<div class="pBody">
+				<ul>
+					<li id="poweredby"><a href="http://www.mediawiki.org/">Powered by MediaWiki</a></li>
+					<li id="privacy"><a href="/docs/jQuery_SDK:Privacy_policy" title="jQuery SDK:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="/docs/jQuery_SDK:About" title="jQuery SDK:About">About jQuery SDK API</a></li>
+					<li id="disclaimer"><a href="/docs/jQuery_SDK:General_disclaimer" title="jQuery SDK:General disclaimer">Disclaimers</a></li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- end of the left (by default at least) column -->
+	<div class="visualClear"></div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.340 secs. --></body></html>
